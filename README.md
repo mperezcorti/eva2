@@ -6,3 +6,6 @@ En la página de registro se pueden agregar datos personales para registrar usua
 
 Se ocupó la función "localStorage" en una variable global "let" con un arreglo para poder guardar los datos de los productos y sus precios, al igual que en la página de registro con los datos personales del usuario, internamente en la página sin necesitar una base de datos, para que no se pierdan los datos cuando se cambia de página o se reinicia.
 Luego se hicieron funciones para cada mostrar producto, agregar a carrito, eliminar producto, vaciar carrito, validar correo, validar contraseña y registrar para poder recuperar los datos de las páginas y eliminarlos o validarlos según corresponda.
+
+Se le preguntó a la IA cómo podría validar que el correo tenga un formato determinado, y devolvió el uso de un "regex" que determina que debe haber letras antes y después del arroba, contener un punto y letras al final del texto.
+También se validó con un regex la contraseña para que contenga alguna mayúscula, número y signo, además de confimar que ambas contraseñas son iguales al ingresarlas.
